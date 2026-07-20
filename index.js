@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('¡Bienvenido al increible mundo de TIFON!');
+    res.send('¡Bienvenido al increible mundo de TIFON y RONAL!');
 });
 
 app.listen(PORT, () => {
