@@ -3,9 +3,10 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('¡Hola Mundo desde Gemini!');
+    res.send('¡Bienvenido al increible mundo de TIFON!');
 });
 
 app.listen(PORT, () => {
     console.log(`Servidor escuchando en http://localhost:${PORT}`);
 });
+
